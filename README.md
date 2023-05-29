@@ -12,6 +12,6 @@
     - Content-Type: 요청 본문의 데이터 형식을 지정
 
 2. ae_create.py 설명
-    -serverIP 변수: Mobius 서버의 IP 주소를 할당
-    -ae 변수: 새로운 자원 엔티티의 이름을 할당
-    -data: 딕셔너리를 생성
+    - serverIP 변수: Mobius 서버의 IP 주소를 할당
+    - ae 변수: 새로운 자원 엔티티의 이름을 할당
+    - data: 딕셔너리를 생성
