@@ -37,7 +37,4 @@ if __name__ == "__main__":
         print(f"HTTP error occurred: {error}")
     except Exception as error:
         print(f"Other error occurred: {error}")
-        
-    except HTTPError as error:
-        print(f"Http error occurred: {error}")
-     
+
