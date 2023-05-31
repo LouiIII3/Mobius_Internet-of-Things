@@ -3,7 +3,7 @@ import requests
 from requests.exceptions import HTTPError
 import shortuuid
 
-serverIP = "192.168.0.4"
+serverIP = "ip주소"
 
 ae = "lamp_ae"
 cnt = "COMMAND"
