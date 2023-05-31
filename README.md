@@ -15,3 +15,10 @@
     - serverIP 변수: Mobius 서버의 IP 주소를 할당
     - ae 변수: 새로운 자원 엔티티의 이름을 할당
     - data: 딕셔너리를 생성
+
+3. cnt_create.py 설명
+    - 변수 설정: ae는 "lamp_ae", cnt는 "COMMAND", lbl은 "findRoom1"로 설정
+    - if __name__ == "__main__": 블록 안에서는 요청에 필요한 헤더를 설정
+    - try 블록 : requests.request() 함수를 사용하여 POST 요청
+    - 응답 출력 : print(response.text)
+    
