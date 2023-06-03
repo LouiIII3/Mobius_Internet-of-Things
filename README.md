@@ -21,4 +21,9 @@
     - if __name__ == "__main__": 블록 안에서는 요청에 필요한 헤더를 설정
     - try 블록 : requests.request() 함수를 사용하여 POST 요청
     - 응답 출력 : print(response.text)
+
+4. lamp.py 설명
+    - send_onem2m_data(data) 함수: 데이터를 웹 서버로 전송하는 역할
+    - url_send 변수: 요청을 보낼 URL이 저장 
+    - read_onem2m_data() 함수: 반복적으로 호출 하여 1초마다 데이터를 읽어옴
     
