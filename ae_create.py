@@ -3,6 +3,7 @@ import requests
 from requests.exceptions import HTTPError
 import shortuuid
 
+
 serverIP = "ip주소"
 
 ae = "이름"
